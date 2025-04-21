@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    --roxo: #9C0CFE;
+    --fundoPrimario: #EFEFEF;
+    --fundoSecundario: #FFFFFF;
+
+    --fontPrincipal:"Roboto", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+

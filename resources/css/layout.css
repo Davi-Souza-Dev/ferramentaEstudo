@@ -1,0 +1,13 @@
+.background{
+    padding: 10px;
+    display: grid;
+    grid-template-areas: 
+        "Menu TitleBar TitleBar"
+        "Menu Painel Painel"
+        "Menu Painel Painel";
+    grid-template-rows: 40px 1fr 1fr;
+    grid-template-columns: 80px 1fr 1fr;
+    gap: 20px;
+    align-items: stretch;
+    background: var(--fundoPrimario);
+}
